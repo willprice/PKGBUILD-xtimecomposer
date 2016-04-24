@@ -9,7 +9,8 @@ license=('Custom')
 provides=('xtimecomposer')
 options=(!strip staticlibs)
 depends=(java-runtime)
-source=("xTIMEcomposer-Community_${pkgver%%.*}-Linux64-Installer_Community_$pkgver.tgz")
+
+source=("xTIMEcomposer-Community_${pkgver%%.*}-Linux64-Installer_Community_$pkgver.tgz::https://www.xmos.com/published/xtimecomposer-community_14-linux64-installer?ver=latest")
 md5sums=('3a12a68247022083e624f19e85662fa1')
 
 # Don't compress as it takes forever!
